@@ -15,3 +15,6 @@ function replaceNumWithStringInArray(arr, n, str) {
 
     a.splice(0,1, 'turtle')
     console.log('after changing all numbers', a);
+
+    removed = a.splice(4, 1);
+    console.log('remove the last element', a);
